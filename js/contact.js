@@ -4,9 +4,9 @@
 $(document).ready(function() {
 r = function() {
 if($(window).width() >= 960) {
-$('.img-3').attr('src', (window.devicePixelRatio > 1) ? ((window.devicePixelRatio > 2) ? 'images/madewithsparkle-12-2.png' : 'images/madewithsparkle-8-2.png') : 'images/madewithsparkle-4-2.png');
+$('.img-4').attr('src', (window.devicePixelRatio > 1) ? ((window.devicePixelRatio > 2) ? 'images/madewithsparkle-12-2.png' : 'images/madewithsparkle-8-2.png') : 'images/madewithsparkle-4-2.png');
 } else {
-$('.img-3').attr('src', (window.devicePixelRatio > 1) ? ((window.devicePixelRatio > 2) ? 'images/madewithsparkle-12.png' : 'images/madewithsparkle-8.png') : 'images/madewithsparkle-4.png');
+$('.img-4').attr('src', (window.devicePixelRatio > 1) ? ((window.devicePixelRatio > 2) ? 'images/madewithsparkle-12.png' : 'images/madewithsparkle-8.png') : 'images/madewithsparkle-4.png');
 }
 };
 $(window).resize(r);
